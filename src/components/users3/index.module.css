@@ -1,0 +1,47 @@
+.background {
+  padding-top: 30px;
+  width: 100%;
+}
+.background .control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .control .text1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background .control .text2 {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.background .control .text2 .button1 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.background .control .text2 .button1 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 36px;
+  background: lightgray -17.627px -0.072px/204.468% 136.312% no-repeat;
+}
+.background .control .text2 .button1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 16px;
+}/*# sourceMappingURL=index.module.css.map */

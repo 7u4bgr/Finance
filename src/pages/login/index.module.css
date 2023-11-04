@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.control {
+  display: flex;
+  justify-content: space-between;
+}
+.control .login {
+  background-color: white;
+  padding-left: 15%;
+  padding-top: 40px;
+}
+.control .login .text1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.control .login .text1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: "Nosifer", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 132.5px;
+}
+.control .login .text2 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .login .text2 p {
+  color: var(--text-color-text-3, #78778b);
+  /* Size 16/Size 16 Regular */
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.control .login .text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 25px;
+}
+.control .login .text3 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text3 input {
+  display: flex;
+  width: 404px;
+  padding: 15px 25px 16px 20px;
+  align-items: center;
+  gap: 25px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-5, #f2f2f2);
+}
+.control .login .text4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 25px;
+}
+.control .login .text4 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text4 input {
+  display: flex;
+  width: 404px;
+  padding: 15px 25px 16px 20px;
+  align-items: center;
+  gap: 25px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-5, #f2f2f2);
+}
+.control .login .text5 {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.control .login .text5 .text6 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.control .login .text5 .text6 input {
+  border-radius: 3px;
+  border: 1px solid var(--text-color-text-2, #929eae);
+  width: 16px;
+  height: 16px;
+}
+.control .login .text5 .text6 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  text-align: right;
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text5 .text7 a {
+  text-decoration: none;
+  color: var(--text-color-text-1, #1b212d);
+  text-align: right;
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 119px;
+}
+.control .login .text8 {
+  padding-top: 25px;
+}
+.control .login .text8 a {
+  text-decoration: none;
+  display: flex;
+  width: 404px;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Primary-Color, #c8ee44);
+  border: none;
+  color: var(--text-color-text-1, #1b212d);
+  text-align: center;
+  /* Size 16/Size 16 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text9 {
+  padding-top: 15px;
+}
+.control .login .text9 a {
+  text-decoration: none;
+  display: flex;
+  width: 404px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-3, #f5f5f5);
+  color: var(--text-color-text-3, #78778b);
+  /* Size 16/Size 16 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .login .text10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  gap: 4px;
+}
+.control .login .text10 p {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Regular */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.control .login .text10 a {
+  text-decoration: none;
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .login .text11 {
+  padding-top: 10px;
+  padding-left: 232px;
+}
+.control .photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 916px;
+}/*# sourceMappingURL=index.module.css.map */

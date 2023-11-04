@@ -1,0 +1,245 @@
+.control {
+  display: flex;
+  height: 900px;
+}
+.control .flexcontrol {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.control .flexcontrol .filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.control .flexcontrol .filters .input {
+  padding-left: 40px;
+  padding-top: 28.5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.control .flexcontrol .filters .input svg {
+  position: absolute;
+  margin-left: 15px;
+}
+.control .flexcontrol .filters .input input {
+  display: inline-flex;
+  width: 320px;
+  padding: 12px 70px 12px 45px;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  border: 1px solid var(--gray-gray-3, #f5f5f5);
+  background: var(--gray-gray-2, #f8f8f8);
+  color: var(--text-color-text-2, #929eae);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline-color: #c8ee44;
+}
+.control .flexcontrol .filters .creates {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-right: 40px;
+  padding-top: 28px;
+}
+.control .flexcontrol .filters .creates .button1 {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background: var(--Primary-Color, #c8ee44);
+  display: inline-flex;
+  padding: 14px 20px;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .filters .creates .button2 {
+  cursor: pointer;
+  display: inline-flex;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-3, #f5f5f5);
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol hr {
+  width: 95.3%;
+  border: none;
+  height: 1px;
+  margin-top: 25px;
+  margin-left: 40px;
+  background: #f5f5f5;
+}
+.control .flexcontrol .transactionnames {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.control .flexcontrol .transactionnames .typesnames {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.control .flexcontrol .transactionnames .typesnames .texth2 {
+  width: 470px;
+}
+.control .flexcontrol .transactionnames .typesnames h2 {
+  color: var(--text-color-text-2, #929eae);
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 200px;
+}
+.control .flexcontrol .datacontrol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+.control .flexcontrol .datacontrol .namescontrol {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.control .flexcontrol .datacontrol .namescontrol .names1 {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.control .flexcontrol .datacontrol .namescontrol .names1 .imagecontrol img {
+  width: 52px;
+  height: 50px;
+  flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.control .flexcontrol .datacontrol .namescontrol .names1 .imageflex {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.control .flexcontrol .datacontrol .namescontrol .names1 .imageflex h2 {
+  width: 400px;
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .flexcontrol .datacontrol .namescontrol .names1 .imageflex p {
+  color: var(--text-color-text-2, #929eae);
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 400px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 .button {
+  width: 220px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 .button button {
+  margin-left: 123px;
+  display: flex;
+  padding: 11px 20px 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff1e5;
+  color: #f2994a;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 svg {
+  margin-left: 155px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 h3 {
+  color: var(--text-color-text-1, #1b212d);
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 154px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 h2 {
+  color: var(--text-color-text-2, #929eae);
+  font-family: Kumbh Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 155px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 .uhr {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 .uhr h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 260px;
+}
+.control .flexcontrol .datacontrol .namescontrol .typesnames1 .uhr p {
+  color: var(--text-color-text-3, #78778b);
+  /* Extra Font/Size 13 Regular */
+  font-family: Kumbh Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 148px;
+}
+.control .flexcontrol .datacontrol hr {
+  width: 97.5%;
+  margin-left: 0;
+  padding-left: 0;
+  height: 1px;
+  background: #f5f5f5;
+  margin-top: 10px;
+  border: none;
+}/*# sourceMappingURL=index.module.css.map */

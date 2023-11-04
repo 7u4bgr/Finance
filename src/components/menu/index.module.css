@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background: var(--gray-gray-1, #fafafa);
+  width: 250px;
+  padding-left: 25px;
+  padding-top: 35px;
+  padding-right: 25px;
+  padding-bottom: 100px;
+}
+.background .active {
+  text-decoration: none;
+  display: flex;
+  width: 200px;
+  padding: 14px 81px 14px 15px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: #c8ee44;
+}
+.background .active .icon1 svg {
+  filter: brightness(0) saturate(100%) invert(7%) sepia(8%) saturate(3581%) hue-rotate(181deg) brightness(95%) contrast(87%);
+}
+.background .active h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .control .text1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.background .control .text1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  font-family: "Nosifer", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .control .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 40px;
+}
+.background .control .icons .dashboard {
+  text-decoration: none;
+  display: flex;
+  width: 200px;
+  padding: 14px 81px 14px 15px;
+  align-items: center;
+  gap: 12px;
+}
+.background .control .icons .dashboard h2 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .icons .dashboard:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  background: #c8ee44;
+}
+.background .control .icons .dashboard:hover .icon1 svg {
+  filter: brightness(0) saturate(100%) invert(7%) sepia(8%) saturate(3581%) hue-rotate(181deg) brightness(95%) contrast(87%);
+}
+.background .control .icons .dashboard:hover h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.background .control .icons1 {
+  padding-top: 354px;
+}
+.background .control .icons1 .dashboard1 {
+  text-decoration: none;
+  display: flex;
+  width: 200px;
+  padding: 14px 81px 14px 15px;
+  align-items: center;
+  gap: 12px;
+}
+.background .control .icons1 .dashboard1 h2 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.background .control .icons1 .dashboard1:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  background: var(--Primary-Color, #c8ee44);
+}
+.background .control .icons1 .dashboard1:hover .icon1 svg {
+  filter: brightness(0) saturate(100%) invert(7%) sepia(8%) saturate(3581%) hue-rotate(181deg) brightness(95%) contrast(87%);
+}
+.background .control .icons1 .dashboard1:hover h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */

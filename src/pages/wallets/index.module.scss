@@ -1,0 +1,477 @@
+.control {
+  display: flex;
+  height: 900px;
+  .flexcontrol {
+    width: 100%;
+    .partscontrol {
+      display: flex;
+      gap: 250px;
+      .part1 {
+        padding-top: 30px;
+        .imagescard {
+          .cardtext {
+            background: url("../../assets/images/blackcard.png");
+            margin-left: 36px;
+            width: 354px;
+            height: 210px;
+            flex-shrink: 0;
+            .texts3 {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              padding-top: 18px;
+              h2 {
+                padding-left: 30px;
+                color: #fff;
+                font-family: Kumbh Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+              }
+              hr {
+                width: 1px;
+                height: 20px;
+                flex-shrink: 0;
+                background: #626261;
+                border: none;
+              }
+              h3 {
+                color: #626260;
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+            .texts4 {
+              padding-top: 27px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .gray {
+                padding-left: 30px;
+              }
+              .pay {
+                padding-right: 31px;
+              }
+            }
+            .cardnumber {
+              p {
+                padding-top: 21px;
+                padding-left: 30px;
+                color: #fff;
+                font-family: Kumbh Sans;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.7px;
+              }
+            }
+            .mastericon {
+              display: flex;
+              justify-content: flex-end;
+              padding-right: 31px;
+              padding-top: 11px;
+            }
+          }
+          .whitetext {
+            background: url("../../assets/images/whitecard.png");
+            width: 324px;
+            height: 192px;
+            position: absolute;
+            margin-left: 50px;
+            top: 212px;
+            border-radius: 15px;
+            border: 0.5px solid rgba(0, 0, 0, 0.4);
+            background: linear-gradient(
+              180deg,
+              rgba(255, 255, 255, 0.4) 0%,
+              rgba(255, 255, 255, 0.1) 100%
+            );
+            backdrop-filter: blur(5px);
+            .texts5 {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              padding-top: 18px;
+              h2 {
+                padding-left: 30px;
+                color: #fff;
+                font-family: Kumbh Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+              }
+              hr {
+                width: 1px;
+                height: 20px;
+                flex-shrink: 0;
+                background: var(--gray-gray-3, #f5f5f5);
+                border: none;
+              }
+              h3 {
+                color: var(--gray-gray-3, #f5f5f5);
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+            .texts6 {
+              padding-top: 27px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .gray {
+                padding-left: 30px;
+              }
+              .pay {
+                padding-right: 31px;
+              }
+            }
+            .cardnumber1 {
+              p {
+                padding-top: 21px;
+                padding-left: 30px;
+                color: var(--text-color-text-1, #1b212d);
+                font-family: Kumbh Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                letter-spacing: 1.6px;
+              }
+            }
+            .visaicon {
+              p {
+                padding-left: 30px;
+                color: var(--text-color-text-2, #929eae);
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 0.24px;
+              }
+              display: flex;
+              justify-content: space-between;
+              padding-right: 31px;
+              padding-top: 11px;
+            }
+          }
+        }
+        .balanced {
+          margin-left: 30px;
+          width: 354px;
+          margin-top: 150px;
+          display: inline-flex;
+          padding: 25px 31px 25px 25px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+          border-radius: 10px;
+          border: 1px solid var(--gray-gray-3, #f5f5f5);
+          background: var(--gray-gray-1, #fafafa);
+          .balance1 {
+            .balancetext1 {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              .yourbalance {
+                h2 {
+                  color: var(--text-color-text-2, #929eae);
+
+                  /* Size 14/Size 14 Medium */
+                  font-family: Kumbh Sans;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                }
+              }
+              .balanceprice {
+                display: flex;
+                gap: 90px;
+                .balancedollar {
+                  h2 {
+                    color: var(--text-color-text-1, #1b212d);
+
+                    /* Extra Font/Size 20 SemiBold */
+                    font-family: Kumbh Sans;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                  }
+                }
+                .balanceupdown {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  .balanceup {
+                    display: flex;
+                    align-items: center;
+                    h2 {
+                      color: var(--status-color-success, #19d076);
+
+                      /* Size 14/Size 14 Medium */
+                      font-family: Kumbh Sans;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: normal;
+                    }
+                  }
+                  .balancedown {
+                    display: flex;
+                    align-items: center;
+                    h2 {
+                      color: var(--status-color-error, #e5363d);
+
+                      /* Size 14/Size 14 Medium */
+                      font-family: Kumbh Sans;
+                      font-size: 14px;
+                      font-style: normal;
+                      font-weight: 500;
+                      line-height: normal;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          hr {
+            background: #f5f5f5;
+            width: 305px;
+            height: 1px;
+            border: none;
+          }
+          .balance2 {
+            display: flex;
+            gap: 70px;
+            .usd1 {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              p {
+                color: var(--text-color-text-2, #929eae);
+
+                /* Size 14/Size 14 Medium */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+              h2 {
+                color: var(--text-color-text-1, #1b212d);
+
+                /* Size 14/Size 14 SemiBold */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+            }
+          }
+        }
+        button {
+          margin-left: 30px;
+          margin-top: 30px;
+          display: flex;
+          width: 354px;
+          padding: 14px 20px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 10px;
+          border: 1px solid var(--gray-gray-3, #f5f5f5);
+          background: var(--gray-gray-2, #f8f8f8);
+          color: var(--Secondary-Color, #29a073);
+
+          /* Size 14/Size 14 SemiBold */
+          font-family: Kumbh Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+      }
+      .part2 {
+        .rows {
+          .payments {
+            margin-top: 30px;
+            h2 {
+              color: var(--text-color-text-1, #1b212d);
+
+              /* Extra Font/Size 20 SemiBold */
+              font-family: Kumbh Sans;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+          }
+          .paymentscontrol {
+            display: flex;
+            gap: 560px;
+            padding-top: 26.5px;
+            .allpayments {
+              display: flex;
+              align-items: center;
+              gap: 34px;
+              h2 {
+                color: var(--text-color-text-1, #1b212d);
+
+                /* Size 14/Size 14 SemiBold */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+              h3 {
+                color: var(--text-color-text-2, #929eae);
+
+                /* Size 14/Size 14 Medium */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+            .search {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              svg {
+                width: 20px;
+                height: 20px;
+              }
+              h2 {
+                color: var(--text-color-text-2, #929eae);
+
+                /* Size 14/Size 14 Medium */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+          hr {
+            margin-top: 15px;
+            background: #f5f5f5;
+            height: 2px;
+            border: none;
+          }
+          .today {
+            padding-top: 15px;
+            h2 {
+              color: var(--text-color-text-2, #929eae);
+
+              /* Size 14/Size 14 Regular */
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+          .map1 {
+            margin-top: 26px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left1 {
+              .mapimg {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                img {
+                  width: 43px;
+                  height: 43px;
+                  flex-shrink: 0;
+                  border-radius: 12px;
+                  background: lightgray 50% / cover no-repeat;
+                }
+                .lefttext {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 7px;
+                  h2 {
+                    color: var(--text-color-text-1, #1b212d);
+
+                    /* Size 14/Size 14 SemiBold */
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                  }
+                  p {
+                    color: var(--text-color-text-2, #929eae);
+
+                    /* Size 14/Size 14 Medium */
+                    font-family: Kumbh Sans;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                  }
+                }
+              }
+            }
+            .right1 {
+              h2 {
+                color: var(--text-color-text-1, #1b212d);
+
+                /* Size 16/Size 16 SemiBold */
+                font-family: Kumbh Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+              }
+            }
+          }
+          .upcomingh2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h2 {
+              margin-top: 31px;
+              color: var(--text-color-text-1, #1b212d);
+
+              /* Extra Font/Size 20 SemiBold */
+              font-family: Kumbh Sans;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+            p {
+              color: var(--text-color-text-2, #929eae);
+
+              /* Size 14/Size 14 Regular */
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

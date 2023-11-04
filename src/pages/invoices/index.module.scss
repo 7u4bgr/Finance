@@ -1,0 +1,253 @@
+.control {
+  display: flex;
+  height: 900px;
+  .flexcontrol {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .filters {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      .input {
+        padding-left: 40px;
+        padding-top: 28.5px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        svg {
+          position: absolute;
+          margin-left: 15px;
+        }
+        input {
+          display: inline-flex;
+          width: 320px;
+          padding: 12px 70px 12px 45px;
+          align-items: center;
+          gap: 15px;
+          border-radius: 15px;
+          border: 1px solid var(--gray-gray-3, #f5f5f5);
+          background: var(--gray-gray-2, #f8f8f8);
+          color: var(--text-color-text-2, #929eae);
+          font-family: Kumbh Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          outline-color: #c8ee44;
+        }
+      }
+      .creates {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-right: 40px;
+        padding-top: 28px;
+        .button1 {
+          text-decoration: none;
+            cursor: pointer;
+          border: none;
+          border-radius: 10px;
+          background: var(--Primary-Color, #c8ee44);
+          display: inline-flex;
+          padding: 14px 20px;
+          align-items: center;
+          gap: 10px;
+          color: var(--text-color-text-1, #1b212d);
+
+          /* Size 14/Size 14 SemiBold */
+          font-family: Kumbh Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        .button2 {
+            cursor: pointer;
+          display: inline-flex;
+          padding: 14px 20px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 10px;
+          border: 1px solid var(--gray-gray-3, #f5f5f5);
+          color: var(--text-color-text-1, #1b212d);
+
+          /* Size 14/Size 14 Medium */
+          font-family: Kumbh Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    hr {
+      width: 95.3%;
+      border: none;
+      height: 1px;
+      margin-top: 25px;
+      margin-left: 40px;
+
+      background: #f5f5f5;
+    }
+    .transactionnames {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 40px;
+      padding-top: 20px;
+      .typesnames {
+        display: flex;
+        align-items: center;
+
+        gap: 30px;
+        .texth2 {
+          width: 470px;
+        }
+        h2 {
+          color: var(--text-color-text-2, #929eae);
+          font-family: Kumbh Sans;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          width: 200px;
+        }
+      }
+    }
+    .datacontrol {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-left: 40px;
+      padding-top: 25px;
+      .namescontrol {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .names1 {
+          display: flex;
+          gap: 14px;
+          align-items: center;
+          .imagecontrol {
+            img {
+              width: 52px;
+              height: 50px;
+              flex-shrink: 0;
+              object-fit: cover;
+              border-radius: 10px;
+            }
+          }
+          .imageflex {
+            display: flex;
+            flex-direction: column;
+
+            gap: 6px;
+            h2 {
+              width: 400px;
+              color: var(--text-color-text-1, #1b212d);
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            p {
+              color: var(--text-color-text-2, #929eae);
+              font-family: Kumbh Sans;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              width: 400px;
+            }
+          }
+        }
+        .typesnames1 {
+          display: flex;
+          align-items: center;
+          margin-right: 60px;
+          .button {
+            width: 220px;
+            button {
+              margin-left: 123px;
+              display: flex;
+              padding: 11px 20px 12px 20px;
+              justify-content: center;
+              align-items: center;
+              gap: 10px;
+              border-radius: 4px;
+              background: #fff1e5;
+              color: #f2994a;
+              text-align: center;
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              border: none;
+            }
+          }
+          svg {
+            margin-left: 155px;
+          }
+          h3 {
+            color: var(--text-color-text-1, #1b212d);
+            text-align: center;
+            font-family: Kumbh Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            width: 154px;
+          }
+          h2 {
+            color: var(--text-color-text-2, #929eae);
+            font-family: Kumbh Sans;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            width: 155px;
+          }
+          .uhr {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            h2 {
+              color: var(--text-color-text-1, #1b212d);
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              width: 260px;
+            }
+            p {
+              color: var(--text-color-text-3, #78778b);
+
+              /* Extra Font/Size 13 Regular */
+              font-family: Kumbh Sans;
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              width: 148px;
+            }
+          }
+        }
+      }
+      hr {
+        width: 97.5%;
+        margin-left: 0;
+        padding-left: 0;
+        height: 1px;
+        background: #f5f5f5;
+        margin-top: 10px;
+        border: none;
+      }
+    }
+  }
+}

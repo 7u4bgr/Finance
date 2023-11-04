@@ -1,0 +1,221 @@
+.control {
+  display: flex;
+  height: 900px;
+  .flexcontrol {
+    width: 100%;
+    input:hover{
+
+    outline-color: #29A073;
+    }
+    .rows {
+      padding-left: 80px;
+      padding-top: 78.5px;
+      .account {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        h2 {
+          color: var(--text-color-text-1, #1b212d);
+
+          /* Extra Font/Size 20 SemiBold */
+          font-family: Kumbh Sans;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        p {
+          color: var(--text-color-text-2, #929eae);
+
+          /* Size 14/Size 14 Regular */
+          font-family: Kumbh Sans;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .edits {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 83%;
+        h2 {
+          color: var(--text-color-text-1, #1b212d);
+
+          /* Extra Font/Size 18 SemiBold */
+          font-family: Kumbh Sans;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+        .personaledit {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h2 {
+            color: var(--Secondary-Color, #29a073);
+            text-align: right;
+
+            /* Extra Font/Size 18 SemiBold */
+            font-family: Kumbh Sans;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
+      }
+      .informations {
+        padding-top: 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .names {
+          display: flex;
+          justify-content: space-between;
+          width: 83%;
+          gap: 41px;
+          .first {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 34%;
+            h2 {
+              color: var(--text-color-text-3, #78778b);
+
+              /* Size 14/Size 14 Medium */
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+            input {
+              display: flex;
+              padding: 15px 25px 16px 25px;
+              align-items: center;
+              gap: 25px;
+              align-self: stretch;
+              border-radius: 10px;
+              border: 1px solid var(--gray-gray-3, #f5f5f5);
+              color: var(--text-color-text-1, #000000);
+              outline-color: #29A073;
+              /* Size 14/Size 14 Medium */
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+        }
+        .emails {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .emailh2 {
+            h2 {
+              color: var(--text-color-text-3, #78778b);
+
+              /* Size 14/Size 14 Medium */
+              font-family: Kumbh Sans;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+          svg {
+            position: absolute;
+            margin-left: 25px;
+            margin-top: 40px;
+          }
+          input {
+            width: 83%;
+ outline-color: #29A073;
+            display: flex;
+            padding: 12px 55px;
+            align-items: center;
+            gap: 25px;
+            align-self: stretch;
+            border-radius: 10px;
+            border: 1px solid var(--whitsh-strock-color, #f1f1f3);
+            color: var(--text-color-text-1, #1b212d);
+
+            /* Size 14/Size 14 Medium */
+            font-family: Kumbh Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+        .names1 {
+          display: flex;
+          justify-content: space-between;
+          width: 83%;
+          gap: 41px;
+          .first1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 34%;
+            .lock1 {
+              .lockicons {
+                svg {
+                  position: absolute;
+                }
+              }
+            }
+            .firsttext {
+              h2 {
+                color: var(--text-color-text-3, #78778b);
+
+                /* Size 14/Size 14 Medium */
+                font-family: Kumbh Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+            .icons {
+              svg {
+                position: absolute;
+                margin-left: 25px;
+                margin-top: 10px;
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+              }
+              .eyes {
+                svg {
+                  position: absolute;
+                  width: 20px;
+                  height: 20px;
+                  margin-left: 21%;
+                  cursor: pointer;
+                }
+              }
+            }
+            input {
+              width: 100%;
+
+              display: flex;
+              padding: 12px 65px;
+              align-items: center;
+              gap: 25px;
+              align-self: stretch;
+              border-radius: 10px;
+              border: 1px solid var(--whitsh-strock-color, #f1f1f3);
+               outline-color: #29A073;
+            }
+          }
+        }
+      }
+    }
+  }
+}

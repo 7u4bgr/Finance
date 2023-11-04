@@ -1,0 +1,436 @@
+.control {
+  display: flex;
+  height: 900px;
+}
+.control .flexcontrol {
+  width: 100%;
+}
+.control .flexcontrol .partscontrol {
+  display: flex;
+  gap: 250px;
+}
+.control .flexcontrol .partscontrol .part1 {
+  padding-top: 30px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext {
+  background: url("../../assets/images/blackcard.png");
+  margin-left: 36px;
+  width: 354px;
+  height: 210px;
+  flex-shrink: 0;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 18px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts3 h2 {
+  padding-left: 30px;
+  color: #fff;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts3 hr {
+  width: 1px;
+  height: 20px;
+  flex-shrink: 0;
+  background: #626261;
+  border: none;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts3 h3 {
+  color: #626260;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts4 {
+  padding-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts4 .gray {
+  padding-left: 30px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .texts4 .pay {
+  padding-right: 31px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .cardnumber p {
+  padding-top: 21px;
+  padding-left: 30px;
+  color: #fff;
+  font-family: Kumbh Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.7px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .cardtext .mastericon {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 31px;
+  padding-top: 11px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext {
+  background: url("../../assets/images/whitecard.png");
+  width: 324px;
+  height: 192px;
+  position: absolute;
+  margin-left: 50px;
+  top: 212px;
+  border-radius: 15px;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 18px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts5 h2 {
+  padding-left: 30px;
+  color: #fff;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts5 hr {
+  width: 1px;
+  height: 20px;
+  flex-shrink: 0;
+  background: var(--gray-gray-3, #f5f5f5);
+  border: none;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts5 h3 {
+  color: var(--gray-gray-3, #f5f5f5);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts6 {
+  padding-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts6 .gray {
+  padding-left: 30px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .texts6 .pay {
+  padding-right: 31px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .cardnumber1 p {
+  padding-top: 21px;
+  padding-left: 30px;
+  color: var(--text-color-text-1, #1b212d);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1.6px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .visaicon {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 31px;
+  padding-top: 11px;
+}
+.control .flexcontrol .partscontrol .part1 .imagescard .whitetext .visaicon p {
+  padding-left: 30px;
+  color: var(--text-color-text-2, #929eae);
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.24px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced {
+  margin-left: 30px;
+  width: 354px;
+  margin-top: 150px;
+  display: inline-flex;
+  padding: 25px 31px 25px 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-3, #f5f5f5);
+  background: var(--gray-gray-1, #fafafa);
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .yourbalance h2 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice {
+  display: flex;
+  gap: 90px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balancedollar h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Extra Font/Size 20 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balanceupdown {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balanceupdown .balanceup {
+  display: flex;
+  align-items: center;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balanceupdown .balanceup h2 {
+  color: var(--status-color-success, #19d076);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balanceupdown .balancedown {
+  display: flex;
+  align-items: center;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance1 .balancetext1 .balanceprice .balanceupdown .balancedown h2 {
+  color: var(--status-color-error, #e5363d);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .balanced hr {
+  background: #f5f5f5;
+  width: 305px;
+  height: 1px;
+  border: none;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance2 {
+  display: flex;
+  gap: 70px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance2 .usd1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance2 .usd1 p {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 .balanced .balance2 .usd1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part1 button {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  width: 354px;
+  padding: 14px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--gray-gray-3, #f5f5f5);
+  background: var(--gray-gray-2, #f8f8f8);
+  color: var(--Secondary-Color, #29a073);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .payments {
+  margin-top: 30px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .payments h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Extra Font/Size 20 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol {
+  display: flex;
+  gap: 560px;
+  padding-top: 26.5px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .allpayments {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .allpayments h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .allpayments h3 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .search svg {
+  width: 20px;
+  height: 20px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .paymentscontrol .search h2 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows hr {
+  margin-top: 15px;
+  background: #f5f5f5;
+  height: 2px;
+  border: none;
+}
+.control .flexcontrol .partscontrol .part2 .rows .today {
+  padding-top: 15px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .today h2 {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Regular */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .left1 .mapimg {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .left1 .mapimg img {
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: lightgray 50%/cover no-repeat;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .left1 .mapimg .lefttext {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .left1 .mapimg .lefttext h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 14/Size 14 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .left1 .mapimg .lefttext p {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Medium */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .map1 .right1 h2 {
+  color: var(--text-color-text-1, #1b212d);
+  /* Size 16/Size 16 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .upcomingh2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.control .flexcontrol .partscontrol .part2 .rows .upcomingh2 h2 {
+  margin-top: 31px;
+  color: var(--text-color-text-1, #1b212d);
+  /* Extra Font/Size 20 SemiBold */
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.control .flexcontrol .partscontrol .part2 .rows .upcomingh2 p {
+  color: var(--text-color-text-2, #929eae);
+  /* Size 14/Size 14 Regular */
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */
