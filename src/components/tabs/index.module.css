@@ -1,0 +1,129 @@
+.price {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  justify-content: space-between;
+}
+.price .button1 {
+  cursor: pointer;
+  display: flex;
+  padding: 24px 20px;
+  align-items: center;
+  gap: 15px;
+  background: var(--gray-gray-2, #f8f8f8);
+  border-radius: 10px;
+  width: 100%;
+}
+.price .button1 .svgback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebe8e8;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 44px;
+}
+.price .button1 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price .button1 .texts h2 {
+  color: #929eae;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price .button1 .texts p {
+  color: #000000;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price .button2 {
+  cursor: pointer;
+  display: flex;
+  padding: 24px 20px;
+  align-items: center;
+  gap: 15px;
+  background: var(--gray-gray-2, #f8f8f8);
+  border-radius: 10px;
+  width: 100%;
+}
+.price .button2 .svgback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebe8e8;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 44px;
+}
+.price .button2 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price .button2 .texts h2 {
+  color: #929eae;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price .button2 .texts p {
+  color: #000000;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price .button3 {
+  cursor: pointer;
+  display: flex;
+  padding: 24px 20px;
+  align-items: center;
+  gap: 15px;
+  background: var(--gray-gray-2, #f8f8f8);
+  border-radius: 10px;
+  width: 100%;
+}
+.price .button3 .svgback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ebe8e8;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 44px;
+}
+.price .button3 .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.price .button3 .texts h2 {
+  color: #929eae;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.price .button3 .texts p {
+  color: #000000;
+  font-family: Kumbh Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=index.module.css.map */

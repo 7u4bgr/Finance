@@ -3,19 +3,19 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import { LineChart } from "@mui/x-charts/LineChart";
 
-const lineChartsParams = {
-  series: [
-    { data: [3, 4, 1, 6, 5], area: false, stack: "total" },
-    { data: [4, 3, 1, 5, 8], area: false, stack: "total" },
-  ],
-  xAxis: [{ data: [1, 3, 5, 7, 9] }],
-  height: 291,
-};
-export default function ElementHighlights() {
+export default function ElementHighlights({data}) {
   const [chartType, setChartType] = React.useState("bar");
   const [withArea, setWithArea] = React.useState(false);
   const [highlighted, setHighlighted] = React.useState("item");
   const [faded, setFaded] = React.useState("global");
+  const lineChartsParams = {
+    series: [
+      { data: data[0],area: false, stack: "total" },
+      { data: data[1], area: false, stack: "total" },
+    ],
+    xAxis: [{ data: [1, 2, 3, 4, 5,6,7] }],
+    height: 291,
+  };
 
   return (
     <Stack

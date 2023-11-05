@@ -18,8 +18,17 @@ import {
 import Chart from "../../components/chart";
 import Card1 from "../../assets/images/blackcard.png";
 import { Link } from "react-router-dom";
+
 const Dashboard = () => {
   const [activehover, setActivehover] = useState("balance");
+  const [data, setData] = useState([
+    [4000, 7000, 5000, 10000, 5000, 4000, 1000],
+    [5000, 4000, 7000, 8000, 5000, 3000, 2000],
+  ]);
+  const ChangeData = (active, data1) => {
+    setActivehover(active);
+    setData(data1);
+  };
   return (
     <div className={styles.background}>
       <Menu active={"dashboard"} />
@@ -31,7 +40,12 @@ const Dashboard = () => {
               <div className={styles.control4}>
                 <div className={styles.price}>
                   <div
-                    onClick={() => setActivehover("balance")}
+                    onClick={() => {
+                      ChangeData("balance", [
+                        [4000, 7000, 5000, 10000, 5000, 4000, 1000],
+                        [5000, 4000, 7000, 8000, 5000, 3000, 2000],
+                      ]);
+                    }}
                     className={
                       activehover == "balance"
                         ? styles.activehover
@@ -47,7 +61,12 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div
-                    onClick={() => setActivehover("spending")}
+                    onClick={() =>
+                      ChangeData("spending", [
+                        [1000, 6000, 8000, 5000, 11000, 9000, 4500],
+                        [3500, 4200, 7000, 12000, 15000, 13000, 19000],
+                      ])
+                    }
                     className={
                       activehover == "spending"
                         ? styles.activehover
@@ -63,7 +82,10 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div
-                    onClick={() => setActivehover("saved")}
+                    onClick={() => ChangeData("saved", [
+                      [12000, 16500, 18200, 15150, 17000, 19000, 4100],
+                      [500, 14200, 17050, 13000, 17300, 8200, 13020],
+                    ])}
                     className={
                       activehover == "saved"
                         ? styles.activehover
@@ -104,7 +126,7 @@ const Dashboard = () => {
                     </select>
                   </div>
                   <div className={styles.chartcontrol}>
-                    <Chart />
+                    <Chart data={data} />
                   </div>
                 </div>
                 <div className={styles.transactionbar}>
